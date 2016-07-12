@@ -24,7 +24,7 @@ public class DroitRetraiteServiceImplTest {
         Individu individu = new Individu();
         individu.setDateNaissance(LocalDate.of(1951, Month.JANUARY, 1));
 
-        LocalDate ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
+        Period ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
 
         assertThat(ageLegalDepartRetraite).isEqualTo(Period.ofYears(60));
     }
@@ -34,7 +34,7 @@ public class DroitRetraiteServiceImplTest {
         Individu individu = new Individu();
         individu.setDateNaissance(LocalDate.of(1951, Month.SEPTEMBER, 1));
 
-        LocalDate ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
+        Period ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
 
         assertThat(ageLegalDepartRetraite).isEqualTo(Period.of(60, 4, 0));
     }
@@ -44,7 +44,7 @@ public class DroitRetraiteServiceImplTest {
         Individu individu = new Individu();
         individu.setDateNaissance(LocalDate.of(1952, Month.JANUARY, 1));
 
-        LocalDate ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
+        Period ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
 
         assertThat(ageLegalDepartRetraite).isEqualTo(Period.of(60, 9, 0));
     }
@@ -54,7 +54,7 @@ public class DroitRetraiteServiceImplTest {
         Individu individu = new Individu();
         individu.setDateNaissance(LocalDate.of(1953, Month.JANUARY, 1));
 
-        LocalDate ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
+        Period ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
 
         assertThat(ageLegalDepartRetraite).isEqualTo(Period.of(61, 2, 0));
     }
@@ -64,7 +64,7 @@ public class DroitRetraiteServiceImplTest {
         Individu individu = new Individu();
         individu.setDateNaissance(LocalDate.of(1954, Month.JANUARY, 1));
 
-        LocalDate ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
+        Period ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
 
         assertThat(ageLegalDepartRetraite).isEqualTo(Period.of(61, 7, 0));
     }
@@ -74,7 +74,7 @@ public class DroitRetraiteServiceImplTest {
         Individu individu = new Individu();
         individu.setDateNaissance(LocalDate.of(1955, Month.JANUARY, 1));
 
-        LocalDate ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
+        Period ageLegalDepartRetraite = droitRetraiteService.calculerAgeLegalDepartRetraite(individu);
 
         assertThat(ageLegalDepartRetraite).isEqualTo(Period.of(62, 0, 0));
     }

@@ -1,8 +1,8 @@
 package fr.exemple;
 
-import java.time.LocalDate;
+import java.time.Period;
 
 public interface DroitRetraiteService {
 
-    LocalDate calculerAgeLegalDepartRetraite(final Individu individu);
+    Period calculerAgeLegalDepartRetraite(final Individu individu);
 }
