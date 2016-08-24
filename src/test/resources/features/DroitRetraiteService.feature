@@ -8,6 +8,12 @@ Fonctionnalité: Contrôle de l'alimentation du collecteur
     Quand j'appelle le service calcul âge légal de départ retraite
     Alors l'âge calculé est 60 ans et 0 mois
 
+  Scénario: Individu né entre juillet et decembre 1951
+    Soit un individu
+    Et la date de naissance '01/09/1951'
+    Quand j'appelle le service calcul âge légal de départ retraite
+    Alors l'âge calculé est 60 ans et 4 mois
+
   Plan du scénario: <nom du scenario>
     Soit un individu
     Et la date de naissance '<date>'

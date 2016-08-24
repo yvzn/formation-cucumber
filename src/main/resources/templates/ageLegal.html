@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Demande Retraite</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Calcul âge légal de départ</h1>
+    <form>
+        <label>Date de naissance: <input type="date" name="dateNaissance" th:value="${dateNaissance}" /></label>
+        <input type="submit" />
+    </form>
+    <p th:text="${resultat}" />
+</body>
+</html>

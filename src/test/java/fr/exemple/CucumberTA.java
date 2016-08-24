@@ -9,4 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 @CucumberOptions(features = "src/test/resources/features")
 @ContextConfiguration(classes = AppConfig.class)
 public class CucumberTA {
+
+    // TODO Commencer par un exemple où les feeature sont dans le même dossier
+
 }
