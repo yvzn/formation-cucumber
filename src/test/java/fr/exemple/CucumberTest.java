@@ -8,8 +8,8 @@ import org.springframework.test.context.ContextConfiguration;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features")
 @ContextConfiguration(classes = AppConfig.class)
-public class CucumberTA {
+public class CucumberTest {
 
-    // TODO Commencer par un exemple où les feeature sont dans le même dossier
+    // TODO Commencer par un exemple où les feature sont dans le même dossier
 
 }

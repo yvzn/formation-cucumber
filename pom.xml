@@ -107,6 +107,11 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
             <version>1.4.0.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>3.0.0-beta3</version>
+        </dependency>
 
     </dependencies>
 </project>
