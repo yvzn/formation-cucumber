@@ -1,6 +1,6 @@
 # encoding: utf-8
 # language: fr
-Fonctionnalité: Contrôle de l'alimentation du collecteur
+Fonctionnalité: Contrôle du calcul de l'âge légal de départ
 
   Scénario: Individu né avant juillet 1951
     Soit un individu

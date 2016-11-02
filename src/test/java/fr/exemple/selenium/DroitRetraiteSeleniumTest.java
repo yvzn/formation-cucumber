@@ -1,5 +1,6 @@
-package fr.exemple;
+package fr.exemple.selenium;
 
+import fr.exemple.AppConfig;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
